@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    
+}
+div{
+    height: 50%;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    align-items: center;
+}
+img{
+    overflow: hidden;
+}
