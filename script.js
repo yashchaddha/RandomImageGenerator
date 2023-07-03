@@ -16,7 +16,7 @@ $(document).ready(function() {
   
 function fetchRandomDogImage(){
     var xhrRequest=new XMLHttpRequest();
-
+    $('#dog-image').attr('src',"loading.gif");
     xhrRequest.onload=function(){
         var xhrResponse=JSON.parse(xhrRequest.response);
         console.log(xhrResponse.message);
